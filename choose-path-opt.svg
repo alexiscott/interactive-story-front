@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600"
+   height="600"
+   version="1.1"
+   viewBox="0 0 600 600"
+   id="svg1"
+   sodipodi:docname="choose-path-opt.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3416667"
+     inkscape:cx="300"
+     inkscape:cy="300"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="a1" />
+  <image
+     width="600"
+     height="600"
+     preserveAspectRatio="none"
+     xlink:href="choose-path.png"
+     id="image1" />
+  <a
+     xlink:title="title (tooltip) text"
+     xlink:href="http://google.com/"
+     id="a1">
+    <path
+       d="m100.96 292.02 146.86 66.886 60.271 72.56-86.55 53.368-174.8-190.14z"
+       fill="#f00"
+       stroke="#000"
+       stroke-width="0"
+       fill-opacity="1"
+       id="path1" />
+    <a
+       id="a4"
+       xlink:href="http://www.right.com">
+      <path
+         d="m 560.71117,285.70633 -146.86,66.886 -60.271,72.56 86.55,53.368 174.8,-190.14 z"
+         fill="#ff0000"
+         stroke="#000000"
+         stroke-width="0"
+         fill-opacity="0"
+         id="path1-5" />
+    </a>
+    <path
+       style="fill:#803300;stroke:none;stroke-width:5"
+       d="m 326.908,429.48855 -1.28979,-154.11103 12.52814,-0.11354 3.00174,151.98273 z"
+       id="path2"
+       sodipodi:nodetypes="ccccc" />
+    <a
+       id="a6"
+       xlink:actuate=""
+       xlink:href="http://right.com">
+      <path
+         style="fill:#808080;stroke:none;stroke-width:5"
+         d="m 336.64111,293.15509 -0.20672,18.45594 82.81444,-14.62733 -0.73078,-6.88859 z"
+         id="path4" />
+    </a>
+    <a
+       id="a5"
+       xlink:actuate="http://left.com">
+      <path
+         style="fill:#808080;stroke:none;stroke-width:5"
+         d="m 326.37946,293.51863 0.20672,18.45594 -82.81444,-14.62733 0.73078,-6.88859 50.7453,1.8965 z"
+         id="path4-2"
+         sodipodi:nodetypes="cccccc" />
+    </a>
+  </a>
+</svg>

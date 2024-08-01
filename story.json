@@ -1,0 +1,41 @@
+{
+    "parts": {
+        "1": {
+            "text": "You are at a fork in the road. Do you go left or right?",
+            "choices": [
+                {"text": "Left", "svg": "<rect width='50' height='50' style='fill:blue;' />", "nextPart": 2},
+                {"text": "Right", "svg": "<circle cx='25' cy='25' r='25' style='fill:green;' />", "nextPart": 3}
+            ]
+        },
+        "2": {
+            "text": "You took the left path and found a river. Do you swim across or walk along the bank?",
+            "choices": [
+                {"text": "Swim", "svg": "<rect width='50' height='50' style='fill:blue;' />", "nextPart": 4},
+                {"text": "Walk", "svg": "<circle cx='25' cy='25' r='25' style='fill:green;' />", "nextPart": 5}
+            ]
+        },
+        "3": {
+            "text": "You took the right path and found a mountain. Do you climb it or walk around it?",
+            "choices": [
+                {"text": "Climb", "svg": "<rect width='50' height='50' style='fill:blue;' />", "nextPart": 6},
+                {"text": "Walk Around", "svg": "<circle cx='25' cy='25' r='25' style='fill:green;' />", "nextPart": 7}
+            ]
+        },
+        "4": {
+            "text": "You swam across the river and reached a village. The end.",
+            "choices": []
+        },
+        "5": {
+            "text": "You walked along the bank and found a bridge. The end.",
+            "choices": []
+        },
+        "6": {
+            "text": "You climbed the mountain and saw a beautiful sunset. The end.",
+            "choices": []
+        },
+        "7": {
+            "text": "You walked around the mountain and found a cave. The end.",
+            "choices": []
+        }
+    }
+}

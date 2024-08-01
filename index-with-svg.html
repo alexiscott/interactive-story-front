@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Story with SVG Choices</title>
+    <style>
+        .choice {
+            display: inline-block;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="story"></div>
+
+    <script>
+        async function fetchStory() {
+            const response = await fetch('data/story.json');
+            const data = await response.json();
+	    console.log("Data", data);
+            return data.parts;
+        }
+
+        function renderPart(part) {
+            const storyContainer = document.getElementById('story');
+            storyContainer.innerHTML = `
+                <p>${part.text}</p>
+                ${part.choices.map(choice => `
+                    <div class="choice" onclick="showPart(${choice.nextPart})">
+                        <svg width="50" height="50">
+                            ${choice.svg}
+                        </svg>
+                        <p>${choice.text}</p>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        async function showPart(partNumber) {
+            const parts = await fetchStory();
+            renderPart(parts[partNumber]);
+        }
+
+        // Initial render
+        showPart(1);
+    </script>
+</body>
+</html>
