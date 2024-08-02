@@ -20,7 +20,7 @@
 
     <script>
         async function fetchStory() {
-            const response = await fetch('data/story.json');
+            const response = await fetch('story.json');
             const data = await response.json();
 	    console.log("Data", data);
             return data.parts;

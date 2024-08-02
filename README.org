@@ -1,1 +1,1 @@
-- See Pictures for assets.
+- Frontend Prototype for an interactive story. Uses SVG with clickable paths.
